@@ -1,0 +1,118 @@
+body {
+    font-family: "monospace", sans-serif;
+}
+
+.font-primary {
+    color: #00ABAE;
+}
+
+.title-icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+a.font-black {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #00ABAE;
+    padding: 10px;
+    width: 120px;
+}
+
+#about {
+    margin: 60px auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.details {
+    margin-top: 10%;
+    width: 43%;
+}
+
+div#my_portfolio {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.what_do {
+    width: 30%;
+    text-align: justify;
+}
+
+#what p {
+    margin-bottom: 12%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#projects {
+    margin: 60px auto;
+    width: 100%;
+}
+
+#projects .card img {
+    width: 100%;
+}
+
+#projects .project-video {
+    height: 300px;
+    width: 100%;
+}
+
+#projects .card-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid white;
+}
+
+.card-text-description {
+    width: 80%;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 450px;
+    border: 10px solid #00ABAE;
+    margin-bottom: 10px;
+}
+
+#about .detail {
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 12px;
+    color: #00ABAE;
+    margin-bottom: 10px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 200%;
+}
